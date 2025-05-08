@@ -23,6 +23,6 @@ public class UsuarioDTO {
     protected String telefono;
     protected LocalDate fechaNacimiento;
     protected Boolean activo;
-    protected TipoDocumento tipoDocumento;
-    protected Rol rol;
+    protected Integer tipoDocumento;
+    protected Integer rol;
 }
